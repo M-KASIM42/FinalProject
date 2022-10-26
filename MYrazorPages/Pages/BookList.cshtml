@@ -1,0 +1,12 @@
+﻿@page
+@model MYrazorPages.Pages.BookListModel
+@{
+}
+<ul>
+    @foreach(var item in Model.EmployeeList)
+    {
+        <li>
+            @item.FirstName
+        </li>
+    }
+</ul>
